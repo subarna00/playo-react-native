@@ -8,7 +8,8 @@ import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 import PlayScreen from '../screens/PlayScreen';
 import BookScreen from '../screens/BookScreen';
 import ProfileScreen from '../screens/ProfileScreen';
-import { NavigationContainer } from '@react-navigation/native';
+import {NavigationContainer} from '@react-navigation/native';
+import VenueInfoScreen from '../screens/VenueInfoScreen';
 
 const StackNavigator = () => {
   const Stack = createNativeStackNavigator();
@@ -88,12 +89,17 @@ const StackNavigator = () => {
           component={BottomTabs}
           options={{headerShown: false}}
         />
+        <Stack.Screen
+          name="Venue"
+          component={VenueInfoScreen}
+          options={{headerShown: false}}
+        />
       </Stack.Navigator>
     );
   }
   return (
     <NavigationContainer>
-        <MainStack />
+      <MainStack />
     </NavigationContainer>
   );
 };
