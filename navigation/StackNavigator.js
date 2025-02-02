@@ -1,13 +1,13 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import HomeScreen from '../screens/HomeScreen';
+import HomeScreen from '../screens/tabs/HomeScreen';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
-import PlayScreen from '../screens/PlayScreen';
-import BookScreen from '../screens/BookScreen';
-import ProfileScreen from '../screens/ProfileScreen';
+import PlayScreen from '../screens/tabs/PlayScreen';
+import BookScreen from '../screens/tabs/BookScreen';
+import ProfileScreen from '../screens/tabs/ProfileScreen';
 import {NavigationContainer} from '@react-navigation/native';
 import VenueInfoScreen from '../screens/VenueInfoScreen';
 

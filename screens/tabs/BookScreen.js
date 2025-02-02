@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import VenueCard from '../components/VenueCard';
+import VenueCard from '../../components/VenueCard';
 
 const BookScreen = () => {
   const venues = [
