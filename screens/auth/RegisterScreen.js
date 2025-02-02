@@ -1,11 +1,11 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 
 const RegisterScreen = () => {
   return (
-    <View>
+    <SafeAreaView>
       <Text>RegisterScreen</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 
