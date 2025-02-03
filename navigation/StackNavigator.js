@@ -151,6 +151,7 @@ const StackNavigator = () => {
   return (
     <NavigationContainer>
       <AuthStack />
+      {/* <MainStack /> */}
     </NavigationContainer>
   );
 };
